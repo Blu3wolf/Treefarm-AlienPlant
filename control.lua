@@ -36,7 +36,7 @@ local allInOne =
 		["randomGrowingTime"] = myRandomGrowingTime,
 		["fertilizerBoost"] = myFertilizerBoost
 	}
-game.on_init(function()
+script.on_init(function()
 	if (remote.interfaces.treefarm_interface) and (remote.interfaces.treefarm_interface.addSeed) then
 		local errorMsg = remote.call("treefarm_interface", "addSeed", allInOne)
 		if errorMsg ~= nil then
