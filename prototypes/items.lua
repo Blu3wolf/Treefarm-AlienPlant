@@ -3,7 +3,7 @@ data:extend(
 	{
 		type = "item",
 		name = "alien-plant-seed",
-		icon = "__AlienPlant__/graphics/icons/alien-plant-seed.png",
+		icon = "__Treefarm-AlienPlant__/graphics/icons/alien-plant-seed.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "raw-material",
 		fuel_value = "1MJ",
@@ -13,7 +13,7 @@ data:extend(
 	{
 		type = "item",
 		name = "alien-plant-forestry",
-		icon = "__AlienPlant__/graphics/icons/alien-plant-forestry.png",
+		icon = "__Treefarm-AlienPlant__/graphics/icons/alien-plant-forestry.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "production-machine",
 		order = "b[alien-plant-forestry]",
@@ -23,7 +23,7 @@ data:extend(
 	{
 		type = "item",
 		name = "raw-alien-wood",
-		icon = "__AlienPlant__/graphics/icons/raw-alien-wood.png",
+		icon = "__Treefarm-AlienPlant__/graphics/icons/raw-alien-wood.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "raw-material",
 		order = "b[raw-alien-wood]",

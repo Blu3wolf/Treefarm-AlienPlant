@@ -35,7 +35,7 @@ data:extend(
 		category = "alienplant-forestry",
 		energy_required = 50,
 		subgroup = "raw-material",
-		icon = "__AlienPlant__/graphics/icons/raw-alien-wood.png",
+		icon = "__Treefarm-AlienPlant__/graphics/icons/raw-alien-wood.png",
 		ingredients =
 		{
 		  {type="item", name="raw-alien-wood", amount=10}

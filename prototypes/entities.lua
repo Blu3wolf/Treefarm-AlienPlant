@@ -3,7 +3,7 @@ data:extend(
 	{
 		type = "tree",
 		name = "alien-plant-seed",
-		icon = "__AlienPlant__/graphics/icons/alien-plant-seed.png",
+		icon = "__Treefarm-AlienPlant__/graphics/icons/alien-plant-seed.png",
 		order="b-b-g",
 		flags = {"placeable-neutral", "breaths-air"},
 		emissions_per_tick = -0.0001,
@@ -21,7 +21,7 @@ data:extend(
 		pictures =
 		{
 			{
-				filename = "__AlienPlant__/graphics/entities/alien-plant-seed.png",
+				filename = "__Treefarm-AlienPlant__/graphics/entities/alien-plant-seed.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -32,7 +32,7 @@ data:extend(
 	{
 		type = "tree",
 		name = "small-alien-plant",
-		icon = "__AlienPlant__/graphics/icons/alien-plant-seed.png",
+		icon = "__Treefarm-AlienPlant__/graphics/icons/alien-plant-seed.png",
 		order="b-b-g",
 		flags = {"placeable-neutral", "placeable-off-grid", "breaths-air"},
 		emissions_per_tick = -0.0002,
@@ -50,7 +50,7 @@ data:extend(
 		pictures =
 		{
 			{
-				filename = "__AlienPlant__/graphics/entities/small-alien-plant.png",
+				filename = "__Treefarm-AlienPlant__/graphics/entities/small-alien-plant.png",
 				priority = "extra-high",
 				width = math.floor(56.5),
 				height = math.floor(55.5),
@@ -61,7 +61,7 @@ data:extend(
 	{
 		type = "tree",
 		name = "medium-alien-plant",
-		icon = "__AlienPlant__/graphics/icons/alien-plant-seed.png",
+		icon = "__Treefarm-AlienPlant__/graphics/icons/alien-plant-seed.png",
 		order="b-b-g",
 		flags = {"placeable-neutral", "placeable-off-grid", "breaths-air"},
 		emissions_per_tick = -0.0004,
@@ -79,7 +79,7 @@ data:extend(
 		pictures =
 		{
 			{
-				filename = "__AlienPlant__/graphics/entities/medium-alien-plant.png",
+				filename = "__Treefarm-AlienPlant__/graphics/entities/medium-alien-plant.png",
 				priority = "extra-high",
 				width = math.floor(155*0.75),
 				height = math.floor(118*0.75),
@@ -90,7 +90,7 @@ data:extend(
 	{
 		type = "tree",
 		name = "mature-alien-plant",
-		icon = "__AlienPlant__/graphics/icons/alien-plant-seed.png",
+		icon = "__Treefarm-AlienPlant__/graphics/icons/alien-plant-seed.png",
 		order="b-b-h",
 		flags = {"placeable-neutral", "placeable-off-grid", "breaths-air"},
 		emissions_per_tick = -0.0005,
@@ -108,7 +108,7 @@ data:extend(
 		pictures =
 		{
 			{
-				filename = "__AlienPlant__/graphics/entities/mature-alien-plant.png",
+				filename = "__Treefarm-AlienPlant__/graphics/entities/mature-alien-plant.png",
 				priority = "extra-high",
 				width = 155,
 				height = 118,
@@ -119,7 +119,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "alien-plant-forestry",
-		icon = "__AlienPlant__/graphics/icons/alien-plant-forestry.png",
+		icon = "__Treefarm-AlienPlant__/graphics/icons/alien-plant-forestry.png",
 		order="a",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {hardness = 0.2,mining_time = 0.5,result = "alien-plant-forestry"},
@@ -136,7 +136,7 @@ data:extend(
 		light = {intensity = 0.75, size = 8},
 		animation =
 		{
-			filename = "__AlienPlant__/graphics/entities/alien-plant-forestry.png",
+			filename = "__Treefarm-AlienPlant__/graphics/entities/alien-plant-forestry.png",
 			width = 113,
 			height = 91,
 			frame_count = 33,

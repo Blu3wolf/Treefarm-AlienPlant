@@ -3,7 +3,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "alien-plant-technology",
-		icon = "__AlienPlant__/graphics/icons/alien-plant-seed.png",
+		icon = "__Treefarm-AlienPlant__/graphics/icons/alien-plant-seed.png",
 		effects = 
 		{
 			{
