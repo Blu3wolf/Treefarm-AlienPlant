@@ -23,7 +23,7 @@ data:extend(
 		{
 			{"advanced-circuit", 20},
 			{"iron-gear-wheel", 20},
-			{"basic-transport-belt", 5}
+			{"transport-belt", 5}
 		},
 		result = "alien-plant-forestry",
 		result_count = 1,
