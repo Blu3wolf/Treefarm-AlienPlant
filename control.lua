@@ -40,7 +40,7 @@ script.on_init(function()
 	if (remote.interfaces.treefarm_interface) and (remote.interfaces.treefarm_interface.addSeed) then
 		local errorMsg = remote.call("treefarm_interface", "addSeed", allInOne)
 		if errorMsg ~= nil then
-			for _, player in ipairs(game.players) do
+			for _, player in pairs(game.players) do
 				player.print(errorMsg)
 			end
 		end

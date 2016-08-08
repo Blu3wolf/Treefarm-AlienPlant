@@ -1,9 +1,10 @@
 {
   "name": "Treefarm-AlienPlant",
-  "version": "0.2.0",
+  "version": "0.3.0",
+   "factorio_version": "0.13",
   "title": "Treefarm-AlienPlant",
   "author": "SuperSandro2000, Pheon1x, Blu3wolf",
   "homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=44&t=4343",
-  "dependencies": ["base >= 0.12.12","Treefarm-Lite >= 0.2.8"],
+  "dependencies": ["base >= 0.13.0","Treefarm-Lite >= 0.5.1"],
   "description": "Adds an AlienPlant to the TreeFarm-Mod"
 }
